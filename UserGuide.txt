@@ -1,0 +1,26 @@
+﻿Hangman User Instructions:
+
+Hangman is a game where you have x amount of turns to guess the letters or words that are hidden.  If a user fails to enter a correct letter or word then part of the man hanging is drawn.  The goal of the game is to guess the letters within the word or word before your turns run out.  Once you have completely guessed the word you will be given points based on the level you choose to play.  For example, easy mode gives you 5 points and hard mode gives you 15 points.
+
+How to operate the menu:
+
+Step 1: 
+User must first enter their name choice which is used to store scores for the current session and submit to the database.  If the user’s score is in the database, the score will be displayed otherwise will let the user know their score is not in the database.
+
+Step 2: 
+User has the option to choose from option 1. Easy Play, 2. Hard Play, 3. Leaderboards, 4. Instructions, 5. Credits, or 6. Quit.  
+1. Easy Play – Consists of easier words with words consisting of 3-5 letter words.  
+2. Hard Play – Consists of harder words with words consisting of 12-16 letter words.
+3. Leaderboards – Displays the top 10 scores.
+4. Instructions – Prompts the user with basic instructions of gameplay.
+5. Credits – Displays credits for game creation
+6. Quit – Ends game
+
+Step 3: 
+The user chooses to play one of the game modes easy or hard.  The game begins.  
+
+Step 4: 
+The user has 6 attempts to guess all of the letters or words.  A user is to enter a letter or guess the word in its entirety.  If the user inputs an invalid character it is stored and will not be held against the user for typing the same incorrect character for this word.  If it’s a correct letter the same applies except it’ll be displayed in the correct location of the word.  If a user attempts to guess the word in its entirety and it’s incorrect, it’ll be stored as well and will not be used against the user for attempting the same word.  As the user continues to play the character will begin to grow to start with the head, body, arm 1, arm 2, leg 1, and leg 2.  If a full character is drawn, the user is shown the hidden word and given 0 points. If user guesses before all attempts run out, then points are given based on game mode: 5 points for easy and 15 for hard.  Bonus points are given if user guesses the full word.  Easy mode receives a bonus of 10 and hard mode receives a bonus of 20 points.   
+
+Step 5: 
+The user is prompted to play again to continue to earn points to get onto the leaderboard.  If the user chooses to not play again, then the score is reset to 0, and the game ends.  If the user continues, points continue to add up and have a higher chance of joining the leaderboards!  Scores are calculated based on the current game session.  If the word is not guessed, you simply do not earn points.  If the word is guessed, the points are added accordingly.  

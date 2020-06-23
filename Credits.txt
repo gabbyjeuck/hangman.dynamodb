@@ -1,0 +1,11 @@
+﻿Credits
+
+Programming:
+Gabrielle Jeuck
+
+Testing:
+Gabrielle Jeuck
+
+Documentation:
+Gabrielle Jeuck
+
